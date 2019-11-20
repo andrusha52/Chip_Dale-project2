@@ -2,5 +2,17 @@
  * Все паршалы импортировать в этот файл
  */
 
-@import 'normalize.scss';
-@import 'base.scss';
+ @import './normalize.scss';
+ @import './fonts.scss';
+ @import './placeholders.scss';
+ @import './variables.scss';
+ @import './base.scss';
+ 
+ 
+@import './sections/header.scss';
+@import './sections/section_product.scss';
+@import './sections/section_how-its-made.scss';
+@import './sections/section_slider.scss';
+@import './sections/section_comments.scss';
+@import './sections/section_cart.scss';
+@import './sections/footer.scss';
