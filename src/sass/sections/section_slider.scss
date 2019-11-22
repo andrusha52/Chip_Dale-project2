@@ -60,15 +60,6 @@
   }
 }
 
-// .about--decoration::after {
-//   content: " ";
-//   background-color: rgb(225, 225, 225);
-//   width: 140px;
-//   height: 1px;
-//   display: block;
-//   margin: 0 auto;
-// }
-
 .comments {
   background: #fff;
   position: relative;
@@ -95,18 +86,6 @@
     left: 50%;
   }
 }
-
-// .dot--one {
-//   left: 58%;
-// }
-
-// .dot--two {
-//   left: 42%;
-// }
-
-// .dot--three {
-//   left: 50%;
-// }
 
 p.comments-name {
   margin: 0;
@@ -154,36 +133,6 @@ p.comments-name {
   }
 }
 
-// .slide--home {
-//   background-image: url("../../images/home2@2x.png");
-//   background-size: contain;
-//   width: 16px;
-//   height: 13px;
-//   position: absolute;
-//   left: 40%;
-//   bottom: 4px;
-// }
-
-// .slide--ellipse {
-//   background-color: rgb(217, 217, 217);
-//   position: absolute;
-//   width: 12px;
-//   border-radius: 50%;
-//   height: 12px;
-//   left: 50%;
-//   bottom: 4px;
-// }
-
-// .slide--ellipse-2 {
-//   background-color: rgb(217, 217, 217);
-//   position: absolute;
-//   width: 12px;
-//   border-radius: 50%;
-//   height: 12px;
-//   left: 60%;
-//   bottom: 4px;
-// }
-
 // MEDIA
 
 @media (min-width:768px) {
@@ -227,13 +176,6 @@ p.comments-name {
       height: 0;
     }
   }
-  
-  // .about--decoration::after {
-  //   content: "";
-  //   background-color: transparent;
-  //   width: 0;
-  //   height: 0;
-  // }
 
   .indent::before {
     width: 18px;
@@ -247,14 +189,6 @@ p.comments-name {
     padding-right: 80px;
   }
 
-  // .indent-start::before {
-  //   width: 135px;
-  //   height: 1px;
-  //   content: "";
-  //   background-color: transparent;
-  //   display: inline-block;
-  // }
-
   .indent-start {
     padding-left: 20.5%;
   }
@@ -266,13 +200,6 @@ p.comments-name {
     background-color: transparent;
     display: inline-block;
   }
-
-  // .section-container {
-  //   height: 100%;
-  //   padding-bottom: 30px;
-  //   padding-top: 50px;
-  // }
-
 
   .slider-about:before {
     bottom: 98px;
@@ -309,11 +236,6 @@ p.comments-name {
   .indent-end {
     padding-right: 130px;
   }
-
-  // .indent-start::before {
-  //   width: 0;
-  //   background-color: transparent;
-  // }
 
   .indent-4 {
     padding-left: 140px;
