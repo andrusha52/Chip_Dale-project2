@@ -1,13 +1,13 @@
 html {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0 auto;
+  padding: 0;
 }
 
 body {
@@ -39,7 +39,7 @@ a {
     width: 768px;
   }
 }
-@media (min-width:1280){
+@media (min-width:1280px){
   .container{
     width: 1280px;
   }
