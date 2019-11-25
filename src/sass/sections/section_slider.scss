@@ -1,0 +1,278 @@
+.section-slider {
+  margin-top: -400px;
+  position: relative;
+  padding-bottom: 118px;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.section-container {
+  margin: 0 auto;
+  width: 250px;
+  background-color: $background-color-wrapper-darker;
+  position: absolute;
+  height: 380px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  padding-top: 40px;
+}
+
+.layer-img {
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.slider-about:before {
+  content: " ";
+  background-image: url(../../images/blockquote.png);
+  display: block;
+  width: 54px;
+  height: 41px;
+  position: absolute;
+  bottom: 309px;
+  left: 52px;
+  z-index: -1;
+}
+
+.about--decoration {
+  display: block;
+  text-align: center;
+  @extend %dm-sansM;
+  font-size: 13px;
+  line-height: 31px;
+
+  &::after {
+    content: " ";
+    background-color: rgb(225, 225, 225);
+    width: 140px;
+    height: 1px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.comments {
+  background: #fff;
+  position: relative;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.dot {  
+  border-radius: 50%;
+  background-color: rgb(212, 20, 66);
+  width: 5px;
+  height: 5px; 
+  position: absolute;
+
+  &--one {
+    left: 58%;
+  }
+
+  &--two {
+    left: 42%;
+  }
+  
+  &--three {
+    left: 50%;
+  }
+}
+
+p.comments-name {
+  margin: 0;
+  margin-top: 35px;
+  @extend %dm-sansN;
+  font-size: 13px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.slide {
+  position: relative;
+  margin: 0 auto;
+  width: 250px;
+
+  &--home {
+    background-image: url("../../images/home2@2x.png");
+    background-size: contain;
+    width: 16px;
+    height: 13px;
+    position: absolute;
+    left: 40%;
+    bottom: 4px;
+  }
+
+  &--ellipse {
+    background-color: rgb(217, 217, 217);
+    position: absolute;
+    width: 12px;
+    border-radius: 50%;
+    height: 12px;
+    left: 50%;
+    bottom: 4px;
+  }
+
+  &--ellipse-2 {
+    background-color: rgb(217, 217, 217);
+    position: absolute;
+    width: 12px;
+    border-radius: 50%;
+    height: 12px;
+    left: 60%;
+    bottom: 4px;
+  }
+}
+
+.layer-list {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.overview-element {
+  width: 100%;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+// MEDIA
+
+@media (min-width:768px) {
+  .container {
+    margin: 0 auto;
+  }
+
+  .section-container {
+    width: 609px;
+    height: 100%;
+    padding-bottom: 30px;
+    padding-top: 50px;
+  }
+
+  .section-slider {
+    margin-top: -240px;
+  }
+
+  .slider-about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 454px;
+    margin: 0 auto;
+  }
+
+  .about--decoration {
+    background-image: linear-gradient(to bottom, rgb(225, 225, 225), rgb(225, 225, 225), rgb(225, 225, 225));
+    background-position: 0 90%;
+    background-repeat: repeat-x;
+    background-size: 16px 1px;
+
+    &::after {
+      content: "";
+      background-color: transparent;
+      width: 0;
+      height: 0;
+    }
+  }
+
+  .indent::before {
+    width: 18px;
+    height: 1px;
+    content: "";
+    background-color: transparent;
+    display: inline-block;
+  }
+
+  .indent-end {
+    padding-right: 80px;
+  }
+
+  .indent-start {
+    padding-left: 20.5%;
+  }
+
+  .indent-middle::before {
+    width: 18px;
+    height: 1px;
+    content: "";
+    background-color: transparent;
+    display: inline-block;
+  }
+
+  .slider-about:before {
+    bottom: 98px;
+    left: 98px; 
+  }
+}
+
+@media (min-width:1280px){
+  .section-slider {
+    margin-top: -30px;
+  }
+
+  .section-container {
+    width: 926px;
+  }
+
+  .about--decoration {
+    font-size: 17px;
+  }
+
+  .slider-about {
+    width: 828px;
+  }
+
+  .indent-start {
+    padding: 0;
+
+    &::before {
+      width: 0;
+      background-color: transparent;
+    }
+  }
+
+  .indent-end {
+    padding-right: 130px;
+  }
+
+  .indent-4 {
+    padding-left: 140px;
+  }
+
+  .about--decoration::before {
+    width: 0;
+  }
+
+  p.comments-name {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 39px;
+  }
+
+  .indent-end::after {
+    width: 0;
+  }
+
+  .slider-about:before {
+    bottom: 65px;
+    left: 92px;
+  }
+
+  .indent::before {
+    content: "";
+    padding-left: 60px;
+  }
+}
+

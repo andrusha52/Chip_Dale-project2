@@ -1,0 +1,216 @@
+li,
+ol {
+    list-style: none;
+}
+.section_cart {
+    background: linear-gradient(0deg, rgba(255,245,247,1) 90%, rgba(255,255,255,1) 10%);
+}
+.cart_container {
+    margin: 0 auto;
+    width: 253px;
+    background-color: #fff;
+    border-radius: 25px;
+    padding-left: 38px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 10px 40px 0px rgba(212, 20, 66, 0.15);    
+}
+.tittle {
+    @extend %dm-sansM;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    font-size: 13px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #efd1a5;
+    border-radius: 5px;
+    color: #fff;
+}
+.tittlesd {
+    @extend %dm-sansB;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 15px;
+    font-size: 13px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #c1e297;
+    border-radius: 5px;
+    color: #fff;
+}
+.subtittle {
+    @extend %dm-sansM;
+    font-size: 13px;
+    line-height: 28px;
+    padding-top: 36px;
+}
+.text {
+    @extend %dm-sansM;
+    font-size: 13px;
+    line-height: 19px;
+    width: 134px;
+    margin: 0;
+    padding-top: 21px;
+    padding-bottom: 33px;
+    color: #907e82;
+}
+.deffise {
+    width: auto;
+    color: #ebebeb;
+    display: block;
+    text-align:center;
+    &::after {
+        content: '';
+        display: block;
+        height: 1px;
+        background: #ebebeb;
+        width: 178px;
+        margin: 0;
+    }
+}
+.days_text {
+    padding-top: 33px;
+}
+.time_work {
+    @extend %dm-sansM;
+    font-size: 13px;
+    color: #ffa5ba;
+}
+.cart_middle {
+    padding-bottom: 36px;
+    @extend %dm-sansM;
+    font-size: 13px;
+}
+.email {
+    font-size: 13px;
+    @extend %dm-sansM;
+    color: #907e82;
+}
+.phone {
+    padding-top: 33px;
+    @extend %dm-sansM;
+    font-size: 13px;
+    color: #907e82;
+    text-decoration: none;
+    padding-bottom: 7px;
+}
+.btn_container {
+    display: flex;
+    flex-flow: column;
+    
+}
+.franchise {
+    border: 0px;
+    display: block;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 159px;
+    height: 41px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    color: #c7133e;
+    cursor: pointer;
+    @extend %dm-sansB
+}
+.franchise:hover {
+    background-color: #c7133e;
+    color: #fff;
+}
+.locations {
+    border: 0px;
+    display: block;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 159px;
+    height: 41px;
+    margin: 0 auto;
+    color: #c7133e;
+    cursor: pointer;
+    @extend %dm-sansB;
+}
+.locations:hover {
+    background-color: #c7133e;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .cart {
+        display: flex;
+        width: 693px;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .cart_container {
+        width: 222px;
+    }
+    .text {
+        width: 150px;
+    }
+    .deffise {
+        width: 154px;
+    }
+    .btn_container {
+        display: flex;
+        width: 385px;
+        flex-flow: row;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+}
+@media (min-width: 1280px) {
+    .cart {
+        width: 1060px;
+        margin: 0 auto;
+    }
+    .cart_container {
+        width: 336px;
+        margin: 0 auto;
+    }
+    .cart_start {
+        width: 235px;
+    }
+    .cart_middle {
+        width: 235px;
+    }
+    .cart_end {
+        width: 235px;
+    }
+    
+    .tittle, .tittlesd {
+        font-size: 17px;
+    }
+    .subtittle {
+        font-size: 16px;
+    }
+    .text {
+        font-size: 17px;
+        width: 240px;
+    }
+    .deffise {
+        width: 234px;
+        color: #ebebeb;
+        display: block;
+        text-align:center;
+        &::after {
+            content: '';
+            display: block;
+            height: 1px;
+            background: #ebebeb;
+            width: 100%;
+            margin: 0;
+        }
+    }
+    .phone {
+        font-size: 16px;
+    }
+    .email {
+        font-size: 16px;
+    }
+    .days_text {
+        margin-bottom: 12px;
+    }
+}

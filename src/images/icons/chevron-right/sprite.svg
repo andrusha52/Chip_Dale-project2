@@ -1,0 +1,8 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="right-chevron" viewBox="0 0 32 32">
+<title>right-chevron</title>
+<path d="M25.324 14.151l-13.391-13.371c-0.493-0.52-1.109-0.78-1.849-0.78s-1.355 0.26-1.849 0.78l-1.561 1.541c-0.507 0.507-0.76 1.123-0.76 1.848 0 0.712 0.253 1.335 0.76 1.869l9.982 9.962-9.982 9.982c-0.507 0.507-0.76 1.123-0.76 1.848 0 0.712 0.253 1.335 0.76 1.869l1.561 1.54c0.507 0.507 1.123 0.76 1.849 0.76s1.342-0.253 1.849-0.76l13.391-13.371c0.507-0.534 0.76-1.157 0.76-1.869 0-0.726-0.254-1.342-0.76-1.849z"></path>
+</symbol>
+</defs>
+</svg>
