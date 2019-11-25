@@ -1,5 +1,5 @@
 .section-slider {
-  margin-top: -290px;
+  margin-top: -400px;
   position: relative;
   padding-bottom: 118px;
 }
@@ -13,22 +13,19 @@
   width: 250px;
   background-color: $background-color-wrapper-darker;
   position: absolute;
-  height: 374px;
+  height: 380px;
   position: relative;
   z-index: 2;
   margin-bottom: 20px;
-  padding-top: 38px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  padding-top: 40px;
 }
 
 .layer-img {
-  background-image: url(../../images/testimonials1.jpg);
   border-radius: 50%;
-  background-color: $background-color-wrapper-darker;
-  width: 85px;
-  height: 85px;
-  position: absolute;
-  top: -114px;
-  left: 33%;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
 
 .slider-about:before {
@@ -39,7 +36,7 @@
   height: 41px;
   position: absolute;
   bottom: 309px;
-  left: 31px;
+  left: 52px;
   z-index: -1;
 }
 
@@ -133,6 +130,23 @@ p.comments-name {
   }
 }
 
+.layer-list {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.overview-element {
+  width: 100%;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
 // MEDIA
 
 @media (min-width:768px) {
@@ -148,11 +162,7 @@ p.comments-name {
   }
 
   .section-slider {
-    margin-top: -120px;
-  }
-
-  .layer-img {
-    left: 44%;
+    margin-top: -240px;
   }
 
   .slider-about {
@@ -209,7 +219,7 @@ p.comments-name {
 
 @media (min-width:1280px){
   .section-slider {
-    margin-top: 80px;
+    margin-top: -30px;
   }
 
   .section-container {
@@ -256,8 +266,8 @@ p.comments-name {
   }
 
   .slider-about:before {
-    bottom: 70px;
-    left: 75px;  
+    bottom: 65px;
+    left: 92px;
   }
 
   .indent::before {

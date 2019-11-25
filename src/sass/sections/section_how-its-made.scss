@@ -106,11 +106,13 @@
   background-repeat: no-repeat;
   background-position-x: 125px;
   background-position-y: center;
+  transition: all 0.9s;
 
   &:hover {
     cursor: pointer;
     outline: none;
     background-color: rgb(236, 235, 235);
+    transform: scale(1.1);
   }
 }
 

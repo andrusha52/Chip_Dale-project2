@@ -33,6 +33,11 @@ a {
   display: block;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 .container{
   width: 100%;
   margin: 0 auto;
