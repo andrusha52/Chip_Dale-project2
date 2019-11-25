@@ -274,7 +274,7 @@
     font-size: 8px;
     width: 250px;
     height: 150px;
-    background-image: url(../../images/slider-pic5.png);
+    background-image: url(../images/slider-pic5.png);
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: top 10% left 20%; 
@@ -289,7 +289,7 @@
     height: 18px;
     width: 18px;
     border-radius: 50%;
-    background-image: url(../../images/arrow-right.png);
+    background-image: url(../images/arrow-right.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -331,7 +331,7 @@
 @media (min-width: 768px){
     .section_header{
         background-color: #ffb8c9;
-        background-image:url(../../images/slider-pic4.png), url(../images/slider-pic7.png),url(../images/circle-header.png);
+        background-image:url(../images/slider-pic4.png), url(../images/slider-pic7.png),url(../images/circle-header.png);
         background-size: 170px, 150px, 336px;
         background-repeat: no-repeat; 
         background-position: bottom 0 right 33px, right 240px bottom ,top 42px right 127px; 
@@ -380,7 +380,7 @@
 }
 @media (min-width:1280px){
     .section_header{
-        background-image:url(../../images/slider-pic4.png), url(../images/slider-pic7.png),url(../images/circle-header.png);
+        background-image:url(../images/slider-pic4.png), url(../images/slider-pic7.png),url(../images/circle-header.png);
         background-size: 295px, 230px, 537px;
         background-repeat: no-repeat; 
         background-position: bottom 0 right 71px, right 415px bottom ,top 54px right 231px; 

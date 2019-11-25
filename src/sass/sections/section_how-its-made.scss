@@ -10,7 +10,7 @@
 .section-how {
   padding: 128px 0 0 0;
   background-color: $background-color-wrapper-lighter;
-  background-image: url(../../images/sectionbg1.png);
+  background-image: url(../images/sectionbg1.png);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center 830px;
@@ -102,7 +102,7 @@
   margin: 0 auto;
   text-decoration: none;
   text-align: center;
-  background-image: url(../../images/chevron-right1.png);
+  background-image: url(../images/chevron-right1.png);
   background-repeat: no-repeat;
   background-position-x: 125px;
   background-position-y: center;
@@ -132,7 +132,7 @@
 
 .one-1::before {
   content: " ";
-  background-image: url(../../images/icon1.png);
+  background-image: url(../images/icon1.png);
   width: 33px;
   height: 50px;
   display: block;
@@ -141,7 +141,7 @@
 
 .two-2::before {
   content: " ";
-  background-image: url(../../images/icon2.png);
+  background-image: url(../images/icon2.png);
   width: 50px;
   height: 50px;
   display: block;
@@ -150,7 +150,7 @@
 
 .three-3::before {
   content: " ";
-  background-image: url(../../images/icon3.png);
+  background-image: url(../images/icon3.png);
   width: 44px;
   height: 50px;
   display: block;
@@ -169,7 +169,7 @@
   min-height: 600px;
   display: block;
   background-color: #fff;
-  background-image: url(../../images/home-pic5.jpg);
+  background-image: url(../images/home-pic5.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: 111px;
