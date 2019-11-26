@@ -8,6 +8,7 @@
 }
 
 .section-how {
+  margin: 0 auto;
   padding: 128px 0 0 0;
   background-color: $background-color-wrapper-lighter;
   background-image: url(../images/sectionbg1.png);
@@ -209,8 +210,10 @@
     margin-left: 10px;
   }
 
-  .section-statictics {
+  .section-statictics{
     display: flex;
+    padding-left: 100px;
+  
   }
 
   .about {

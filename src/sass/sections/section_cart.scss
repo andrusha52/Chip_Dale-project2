@@ -115,7 +115,8 @@ ol {
     margin-bottom: 13px;
     color: #c7133e;
     cursor: pointer;
-    @extend %dm-sansB
+    @extend %dm-sansB;
+    outline: none;
 }
 .franchise:hover {
     background-color: #c7133e;
@@ -132,6 +133,7 @@ ol {
     color: #c7133e;
     cursor: pointer;
     @extend %dm-sansB;
+    outline: none;
 }
 .locations:hover {
     background-color: #c7133e;
