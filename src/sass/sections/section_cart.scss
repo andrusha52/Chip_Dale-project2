@@ -90,6 +90,7 @@ ol {
     font-size: 13px;
     @extend %dm-sansM;
     color: #907e82;
+    text-decoration: none;
 }
 .phone {
     padding-top: 33px;
@@ -214,7 +215,6 @@ ol {
     }
     .email {
         font-size: 16px;
-        text-decoration: none;
     }
     .days_text {
         margin-bottom: 12px;
