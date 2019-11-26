@@ -16,7 +16,6 @@
 }
 .navigation{
     width: 290px;
-    margin: 0 auto;
 }
 
 .section_logo{
@@ -62,9 +61,14 @@
     outline: none;
     background-color: transparent;
     margin-top: 10px;
+
 }
 .section_nav a{
     display: none;
+}
+
+.section_nav__btn_burger{
+    display: block;
 }
 
 
@@ -77,7 +81,6 @@
     height: 1px;
     background-color: #d41442;
     border: none;
-
 }
 .section_nav__btn_burger::before{
     position: absolute;

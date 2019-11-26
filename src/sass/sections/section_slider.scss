@@ -4,10 +4,6 @@
   padding-bottom: 118px;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .section-container {
   margin: 0 auto;
   width: 250px;
@@ -150,9 +146,6 @@ p.comments-name {
 // MEDIA
 
 @media (min-width:768px) {
-  .container {
-    margin: 0 auto;
-  }
 
   .section-container {
     width: 609px;

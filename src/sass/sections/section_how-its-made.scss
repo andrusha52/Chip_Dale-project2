@@ -200,13 +200,9 @@
     }
   }
   
-  .container {
-    margin: 0 auto;
-
-    &--section {
+  .container--section{
       width: 710px;
     }
-  }
 
   .read-more {
     margin: 0;
