@@ -91,6 +91,7 @@ ol {
     @extend %dm-sansM;
     color: #907e82;
     text-decoration: none;
+    cursor: pointer;
 }
 .phone {
     padding-top: 33px;
@@ -99,6 +100,7 @@ ol {
     color: #907e82;
     text-decoration: none;
     padding-bottom: 7px;
+    cursor: pointer;
 }
 .btn_container {
     display: flex;
